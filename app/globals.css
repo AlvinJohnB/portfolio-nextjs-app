@@ -116,6 +116,9 @@
   * {
     @apply border-border outline-ring/50;
   }
+  html {
+    scroll-behavior: smooth;
+  }
   body {
     @apply bg-background text-foreground;
   }
@@ -143,11 +146,16 @@
 }
 
 /* Custom Styling */
+/* Smooth scrolling with offset for sticky nav */
+section {
+  scroll-margin-top: 80px; /* Adjust based on nav height */
+}
+
 /* Home */
 .pic-shadow {
   @apply shadow-lg;
   box-shadow: 15px 15px 0px #bbbbbb;
-  border: 5px solid #030712;
+  border: 5px solid #f3f4f6;
 
   .dark & {
     box-shadow: 15px 15px 0px #374151;

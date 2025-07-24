@@ -41,31 +41,45 @@ export default function RootLayout({
           storageKey="theme"
         >
           {/* Navbar */}
-          <nav className="w-full sticky top-0 bg-background">
-            <NavigationMenu className="p-2 ml-auto">
-              <NavigationMenuList>
-                <NavigationMenuLink asChild>
-                  <Link href="#landing" className="font-medium">
-                    Home
-                  </Link>
-                </NavigationMenuLink>
+          <nav className="w-full sticky top-0 bg-background/80 backdrop-blur-md border-b border-border z-50">
+            <NavigationMenu className="p-4 ml-auto">
+              <NavigationMenuList className="gap-6">
                 <NavigationMenuItem>
                   <NavigationMenuLink asChild>
-                    <Link href="#projects" className="font-medium">
+                    <Link
+                      href="#landing"
+                      className="font-medium transition-colors hover:text-primary"
+                    >
+                      Home
+                    </Link>
+                  </NavigationMenuLink>
+                </NavigationMenuItem>
+                <NavigationMenuItem>
+                  <NavigationMenuLink asChild>
+                    <Link
+                      href="#projects"
+                      className="font-medium transition-colors hover:text-primary"
+                    >
                       Projects
                     </Link>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <NavigationMenuLink asChild>
-                    <Link href="#tools" className="font-medium">
+                    <Link
+                      href="#tools"
+                      className="font-medium transition-colors hover:text-primary"
+                    >
                       Tools
                     </Link>
                   </NavigationMenuLink>
                 </NavigationMenuItem>
                 <NavigationMenuItem>
                   <NavigationMenuLink asChild>
-                    <Link href="#contact" className="font-medium">
+                    <Link
+                      href="#contact"
+                      className="font-medium transition-colors hover:text-primary"
+                    >
                       Contact
                     </Link>
                   </NavigationMenuLink>
