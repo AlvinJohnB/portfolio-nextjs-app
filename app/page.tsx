@@ -71,13 +71,13 @@ export default function Home() {
           <TypingText />
           <div className="mt-6 space-y-4">
             <p className="text-lg leading-relaxed">
-              I'm passionate in building functional, user-friendly applications.
-              With experience in React.js, Node.js, and MongoDB/MySQL, I
-              specialize in creating full-stack solutions—from mobile apps to
-              modern web systems. I enjoy solving real-world problems with
-              clean, scalable code. I'm always learning, always building, and
-              always up for the next challenge. Let's create something awesome
-              together.
+              I&apos;m passionate in building functional, user-friendly
+              applications. With experience in React.js, Node.js, and
+              MongoDB/MySQL, I specialize in creating full-stack solutions—from
+              mobile apps to modern web systems. I enjoy solving real-world
+              problems with clean, scalable code. I&apos;m always learning,
+              always building, and always up for the next challenge. Let&apos;s
+              create something awesome together.
             </p>
             <p className="text-lg">
               Welcome to my portfolio — feel free to explore my work!
@@ -226,14 +226,14 @@ export default function Home() {
               Get In Touch
             </h2>
             <p className="text-muted-foreground text-lg">
-              Ready to work together? Let's create something amazing!
+              Ready to work together? Let&apos;s create something amazing!
             </p>
           </div>
           <div className="grid md:grid-cols-2 gap-12">
             {/* Contact Info */}
             <div>
               <h3 className="text-xl font-medium text-foreground mb-6">
-                Let's Connect
+                Let&apos;s Connect
               </h3>
               <div className="space-y-4">
                 <div className="flex items-center text-foreground">
@@ -251,7 +251,7 @@ export default function Home() {
               </div>
               <div className="mt-8">
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  I'm always interested in new opportunities and exciting
+                  I&apos;m always interested in new opportunities and exciting
                   projects. Whether you have a question or just want to say hi,
                   feel free to reach out!
                 </p>

@@ -3,13 +3,9 @@ import { Fredoka } from "next/font/google";
 import "./globals.css";
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 import Link from "next/link";
 import { ThemeProvider } from "@/components/theme-provider";
