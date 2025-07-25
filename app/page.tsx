@@ -41,6 +41,15 @@ const projects = [
     github: "https://github.com/AlvinJohnB/lims-landing-page",
     demo: "https://lims.ajbregs.com",
   },
+  {
+    title: "Flight Booking System - Prototype",
+    description:
+      "Prototype for a flight booking system with a focus on user experience and accessibility.",
+    image: "/projects/flight-booking.png",
+    tech: ["HTML", "CSS", "Bootstrap", "Javascript"],
+    github: "https://github.com/AlvinJohnB/MCP-Side-Project",
+    demo: "https://alvinjohnb.github.io/MCP-Side-Project/",
+  },
 ];
 
 const technologies = [
