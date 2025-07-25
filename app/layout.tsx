@@ -1,15 +1,8 @@
 import type { Metadata } from "next";
 import { Fredoka } from "next/font/google";
 import "./globals.css";
-import {
-  NavigationMenu,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-} from "@/components/ui/navigation-menu";
-import Link from "next/link";
 import { ThemeProvider } from "@/components/theme-provider";
-import { DarkToggle } from "@/components/dark-toggle";
+import { Navigation } from "@/components/navigation";
 
 const fredoka = Fredoka({
   subsets: ["latin"],
@@ -36,57 +29,7 @@ export default function RootLayout({
           enableSystem={false}
           storageKey="theme"
         >
-          {/* Navbar */}
-          <nav className="w-full sticky top-0 bg-background/80 backdrop-blur-md border-b border-border z-50">
-            <NavigationMenu className="p-4 ml-auto">
-              <NavigationMenuList className="gap-6">
-                <NavigationMenuItem>
-                  <NavigationMenuLink asChild>
-                    <Link
-                      href="#landing"
-                      className="font-medium transition-colors hover:text-primary"
-                    >
-                      Home
-                    </Link>
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuLink asChild>
-                    <Link
-                      href="#projects"
-                      className="font-medium transition-colors hover:text-primary"
-                    >
-                      Projects
-                    </Link>
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuLink asChild>
-                    <Link
-                      href="#tools"
-                      className="font-medium transition-colors hover:text-primary"
-                    >
-                      Tools
-                    </Link>
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-                <NavigationMenuItem>
-                  <NavigationMenuLink asChild>
-                    <Link
-                      href="#contact"
-                      className="font-medium transition-colors hover:text-primary"
-                    >
-                      Contact
-                    </Link>
-                  </NavigationMenuLink>
-                </NavigationMenuItem>
-              </NavigationMenuList>
-              {/* <NavigationMenuIndicator />
-            <NavigationMenuViewport /> */}
-              <DarkToggle />
-            </NavigationMenu>
-          </nav>
-
+          <Navigation />
           {children}
         </ThemeProvider>
       </body>
