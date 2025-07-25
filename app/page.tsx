@@ -18,7 +18,7 @@ const projects = [
     title: "Laboratory Information System",
     description:
       "Full-stack MERN application for managing laboratory information, including sample tracking and reporting.",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/projects/lis.png",
     tech: ["MongoDB", "Express", "React", "Node.js"],
     github: "#",
     demo: "https://lis.ajbregs.com",
@@ -27,7 +27,7 @@ const projects = [
     title: "Civil Registrar System",
     description:
       "A web-based application for managing civil registration processes, including birth, marriage, and death certificates.",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/projects/registrar.png",
     tech: ["MongoDB", "Next.js"],
     github: "#",
     demo: "https://registrar.ajbregs.com",
@@ -36,7 +36,7 @@ const projects = [
     title: "Laboratory Management System Landing Page",
     description:
       "Landing page for a laboratory management system with a focus on user experience and accessibility.",
-    image: "/placeholder.svg?height=200&width=400",
+    image: "/projects/lims-landing.png",
     tech: ["Next.js", "Tailwind CSS", "React"],
     github: "https://github.com/AlvinJohnB/lims-landing-page",
     demo: "https://lims.ajbregs.com",
