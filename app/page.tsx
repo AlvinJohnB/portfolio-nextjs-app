@@ -53,7 +53,7 @@ const projects = [
   {
     title: "FreshMart - E-commerce",
     description:
-      "Prototype for an e-commerce platform with a focus on user experience and accessibility.",
+      "A full-stack e-commerce application built with the MERN stack.",
     image: "/projects/e-commerce.png",
     tech: ["MongoDB", "Express", "React", "Node.js", "Bootstrap", "CSS"],
     github: "https://github.com/AlvinJohnB/",
