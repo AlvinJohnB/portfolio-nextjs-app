@@ -50,6 +50,15 @@ const projects = [
     github: "https://github.com/AlvinJohnB/MCP-Side-Project",
     demo: "https://alvinjohnb.github.io/MCP-Side-Project/",
   },
+  {
+    title: "FreshMart - E-commerce",
+    description:
+      "Prototype for an e-commerce platform with a focus on user experience and accessibility.",
+    image: "/projects/e-commerce.png",
+    tech: ["MongoDB", "Express", "React", "Node.js", "Bootstrap", "CSS"],
+    github: "https://github.com/AlvinJohnB/",
+    demo: "#",
+  },
 ];
 
 const technologies = [
