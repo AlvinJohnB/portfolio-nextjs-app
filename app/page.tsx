@@ -42,13 +42,22 @@ const projects = [
     demo: "https://lims.ajbregs.com",
   },
   {
-    title: "Flight Booking System - Prototype",
+    title: "Flight Booking App - Working Prototype",
     description:
       "Prototype for a flight booking system with a focus on user experience and accessibility.",
     image: "/projects/flight-booking.png",
-    tech: ["HTML", "CSS", "Bootstrap", "Javascript"],
+    tech: [
+      "HTML",
+      "CSS",
+      "Bootstrap",
+      "JavaScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "React",
+    ],
     github: "https://github.com/AlvinJohnB/MCP-Side-Project",
-    demo: "https://alvinjohnb.github.io/MCP-Side-Project/",
+    demo: "https://flight-booking-app-pearl.vercel.app",
   },
   {
     title: "FreshMart - E-commerce",
