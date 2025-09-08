@@ -65,8 +65,8 @@ const projects = [
       "A full-stack e-commerce application built with the MERN stack.",
     image: "/projects/e-commerce.png",
     tech: ["MongoDB", "Express", "React", "Node.js", "Bootstrap", "CSS"],
-    github: "https://github.com/AlvinJohnB/",
-    demo: "#",
+    github: "https://github.com/AlvinJohnB/FreshMart",
+    demo: "https://fresh-mart-three.vercel.app/",
   },
 ];
 
